@@ -1,0 +1,12 @@
+package dssc.assignment.fizzbuzz;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+public class fbb {
+#thist test works for i<8 as ending loop condition in Fizzbuzzbang
+#assertEquals can't be used for strings, to see the string content of f.stampa it must be printed
+    @Test
+    void prova(){
+        FizzBuzzBang f= new FizzBuzzBang();
+        assertTrue("1 2 Fizz 4 Buzz Fizz Bang ".equals(f.stampa()));
+    }
+}
